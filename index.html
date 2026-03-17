@@ -1,91 +1,32 @@
-/* 基本設定 */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', 'Microsoft JhengHei', sans-serif;
-}
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>我的網頁設計作業</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-    background-color: #fffaf0; /* 暖白色 */
-    color: #5d4037; /* 深咖啡色文字，比純黑更溫柔 */
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 40px 20px;
-}
+    <div class="main-container">
+        <header>
+            <h1>114 網頁設計實作</h1>
+            <p>班級：商經三甲 / 座號：14 / 姓名：陳唯安</p>
+        </header>
 
-.container {
-    max-width: 800px;
-    width: 100%;
-    text-align: center;
-}
+        <hr>
 
-header {
-    margin-bottom: 50px;
-}
+        <nav>
+            <h2>作業目錄</h2>
+            <ul>
+                <li><a href="lab1/index.html">實驗一：HTML 基礎練習</a></li>
+                <li><a href="lab2/index.html">實驗二：CSS 樣式美化</a></li>
+            </ul>
+        </nav>
 
-header h1 {
-    font-size: 2.5rem;
-    color: #d87a56; /* 磚橘色 */
-    margin-bottom: 10px;
-}
+        <footer>
+            <p>完成日期：2026年3月</p>
+        </footer>
+    </div>
 
-header p {
-    color: #8d6e63;
-}
-
-/* 網格佈局 */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    margin-bottom: 50px;
-}
-
-/* 卡片樣式 */
-.card {
-    background: white;
-    padding: 30px;
-    border-radius: 20px;
-    text-decoration: none;
-    color: inherit;
-    box-shadow: 0 10px 20px rgba(216, 122, 86, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid #fce4ec;
-}
-
-.card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 30px rgba(216, 122, 86, 0.2);
-}
-
-.card-icon {
-    font-size: 3rem;
-    margin-bottom: 15px;
-}
-
-.card h3 {
-    margin-bottom: 10px;
-    color: #d87a56;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 8px 20px;
-    background-color: #ffb347;
-    color: white;
-    border-radius: 50px;
-    font-size: 0.9rem;
-    transition: background 0.3s;
-}
-
-.card:hover .btn {
-    background-color: #d87a56;
-}
-
-footer {
-    font-size: 0.9rem;
-    color: #bcaaa4;
-}
+</body>
+</html>
