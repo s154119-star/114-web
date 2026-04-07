@@ -1,0 +1,75 @@
+/* 全頁設定 */
+body {
+    font-family: "Segoe UI", "Microsoft JhengHei", sans-serif;
+    background-color: #f5f7fb;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* 主標題 */
+  h1 {
+    text-align: center;
+    color: #4a6fa5;
+    margin-bottom: 30px;
+  }
+  
+  /* 副標題 */
+  h2 {
+    color: #5a86c9;
+    margin-top: 30px;
+  }
+  
+  /* 清單樣式 */
+  ul, ol {
+    background-color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  /* 表格整體 */
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  /* 表格標題列 */
+  th {
+    background-color: #6c8ec6;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* 表格內容 */
+  td {
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #eee;
+  }
+  
+  /* 滑過效果 */
+  tr:hover {
+    background-color: #f0f4ff;
+  }
+  
+  /* 連結按鈕 */
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #6c8ec6;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    background-color: #4a6fa5;
+  }
